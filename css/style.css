@@ -1,0 +1,118 @@
+body {
+background-size: cover;
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+
+h1 {
+color: black;
+font-family: fantasy;
+}
+
+input{
+width: 190px;
+opacity: 0.7;
+text-align: center;
+color: #191919;
+}
+
+
+header{
+color: #fff;
+text-align: center;
+vertical-align: text-bottom;
+margin-top: 100px;
+padding-left: 80px;
+size: 2rem;
+}
+
+
+.hidden{
+display: none;
+}
+
+
+button {
+font-size: 10px;
+align-items: center;
+background-color: #191919;
+opacity: 0.4;
+}
+
+.inner{
+width: 100%;
+height: 100%;
+padding: 5px 2rem;
+overflow: hidden;
+}
+section{
+width: 100%;
+
+position: relative;
+}
+.main{
+height: 525px;
+background-size: cover;
+background-position: center 40%;
+background-repeat: no-repeat;
+z-index: 1;
+}
+
+.title-container{
+padding-top: 20px;
+padding-bottom: 50px;
+justify-content: center;
+}
+
+
+.title-message{
+position: relative;
+font-weight: bold;
+font-size: 2rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: black;
+margin-bottom: 0.8rem;
+text-align: center;
+}
+
+
+.todo-container{
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+
+#todo-list{
+color: #fff;
+
+}
+
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message{
+display: flex;
+}
+
+#quote {
+text-align: center;
+color: #fff;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+
+#weather {
+text-align: center;
+font-size: 30px;
+margin-bottom: 20px;
+font-weight: bold;
+}
